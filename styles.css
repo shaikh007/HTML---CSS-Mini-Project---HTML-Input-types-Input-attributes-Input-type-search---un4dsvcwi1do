@@ -20,7 +20,14 @@ body {
 }
 
 header {
+    background: rgb(128, 56, 211);
+    /* position: sticky; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%); */
+}
+
+.home {
     background: rgb(17, 17, 87);
+    padding-top: -100rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
 }
 
@@ -28,6 +35,11 @@ header {
     max-width: 1000px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative;
+}
+
+.secContainer {
+    position: sticky;
 }
 
 header nav .left a {
@@ -378,6 +390,11 @@ section.blog .card-wrapper .card .card-content h1 {
 section.blog .card-wrapper .card .card-content a {
     color: var(--secondary);
     text-decoration: none;
+}
+
+.anchor {
+    text-decoration: none;
+    color: var(--pure);
 }
 
 section.blog .card-wrapper .card .card-content a:hover {
